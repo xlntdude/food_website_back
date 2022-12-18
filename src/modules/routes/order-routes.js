@@ -7,7 +7,6 @@ const routes = new Router();
 
 routes.post(
   "/order",
-  orderValidation,
   OrderController.createAudit
 );
 
